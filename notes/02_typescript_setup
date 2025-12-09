@@ -1,0 +1,19 @@
+step 1 : typescript install karne se pahle package.json setup karte h.
+npm init -y
+
+step 2 : install typeScript
+npm i -D typescript
+
+step 3 : agar aap global typeScript install nhi karte to aap ko tsc config file install karna padta hai
+tsc --init
+
+ab aapne package.json file me jakar script :
+"dev": "npx tsc",
+"start": "node dist/index.js"
+
+ab aapne tsconfig.json file me jana h niche diya hua file Layout agar comment h to comment remove karna h:
+      // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+

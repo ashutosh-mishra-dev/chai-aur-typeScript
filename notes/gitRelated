@@ -1,0 +1,7 @@
+1. check orgin :
+git remote | git remote -v
+
+
+git add .
+git commit -m "typescript introduction and setup"
+git push
