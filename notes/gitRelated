@@ -3,5 +3,5 @@ git remote | git remote -v
 
 
 git add .
-git commit -m "union and any in typescript"
+git commit -m "Type Narrowing & Type Guards in typescript"
 git push
