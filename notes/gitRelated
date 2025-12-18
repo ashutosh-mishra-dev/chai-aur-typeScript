@@ -3,5 +3,5 @@ git remote | git remote -v
 
 
 git add .
-git commit -m "typescript introduction and setup"
+git commit -m "type Annotations and inference(infer) in typescript"
 git push
