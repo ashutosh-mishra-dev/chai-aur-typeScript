@@ -151,3 +151,13 @@ AI apps
 Backend frameworks (Nest.js)
 Huge React apps (Next.js, Vite, Expo)
 MERN + TypeScript = Industry gold standard
+
+TypeScript kaise kaam karta hai?
+
+TypeScript (.ts)
+↓
+Compile
+↓
+JavaScript (.js)
+↓
+Browser / Node.js
