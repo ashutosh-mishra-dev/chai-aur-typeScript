@@ -3,7 +3,7 @@ git remote | git remote -v
 
 
 git add .
-git commit -m "narrowing type and gaurd type examples run on terminal"
+git commit -m "Type Assertion, Type Unknown and Type Never in Typescript"
 git push
 
 

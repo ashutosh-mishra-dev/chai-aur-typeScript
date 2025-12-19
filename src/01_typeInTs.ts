@@ -1,9 +1,9 @@
 /* 
-lecture 3 :
- type Annotations and inference(infer) in typescript
+lecture 3 : type Annotations and inference(infer) in typescript
 
- Annotations means mai samjhaunga, matlab ham yha datatype define karte h.
- inference means aap apne aap se samajh jao , means typescript me variable me jo value first time rakhate ho vhi 
+ Annotations: Annotations means mai samjhaunga, matlab ham yha datatype define karte h.
+
+ inference : inference means aap apne aap se samajh jao , means typescript me variable me jo value first time rakhate ho vhi 
  type ban jayega apne aap typescript samajh jata h infer kar leta hai. 
 
  */
@@ -31,4 +31,4 @@ let chaiOrder: number = 2;
 
 let chaiMilGayi: boolean = true;
 
-//** Annotations means type ko define karna ki variable kis type ka hai
+//**➡️ Annotations means type ko define karna ki variable kis type ka hai

@@ -1,16 +1,33 @@
 /*
 Lecture 6: Type Narrowing & Type Guards
 
-Type guard = check(typeof, instanceof, if, comparisons)
+Type guard = check(typeof, instanceof, if, is, as, comparisons (a===b , a!==b))
 Type narrowing = us check ka result
 
 English : Type narrowing is the process of refining a broader type (like a union) into a more specific type at runtime using checks.
+
+HINDI: TypeScript me jab variable ke paas multiple possible types hote hain (union type),
+to hume code likh kar TS ko batana padta hai abhi exact kaunsa type hai.
+
+Kaha use hota hai?
+API response
+User input
+Union types
+Redux / Zustand state
+Form values
 
 English : Type guards are conditions or functions that help TypeScript determine the specific type of a variable.
 👉 Type guards are tools used to achieve type narrowing.
 
 Hindi : Type guards wo checks hote hain jo TypeScript ko batate hain ki variable ka exact type kya hai.
-👉 Type guards ka use karke hi type narrowing hoti hai.
+👉 Type guards ka use karke hi type narrowing hoti hai.(typeof,instanceof,in,is,as,)
+ex> "type" in obj or typeof x === "string" or err instanceof Error
+
+🔹 Kaha use hota hai?
+API data validation
+Complex object checking
+Library code
+Reusable checks
 */
 
 //--------------------------- Example 1: getChai -> import by index.ts --------------------------------------

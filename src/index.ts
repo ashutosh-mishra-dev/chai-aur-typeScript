@@ -1,11 +1,3 @@
-function greet(person: string): string {
-  return `Hello ${person}, welcome to Chai Code`;
-}
-const username: string = "chai aur typeScript";
-//console.log(greet(username));
-
-//======================== here we are using src/03_typesNarrowing.js file here ==============================
-
 import {
   CuttingChai,
   getChai,
@@ -14,6 +6,16 @@ import {
   serve,
   serveChai,
 } from "./03_typesNarrowing.js";
+
+import { numericLenght, pageData, strData } from "./04_moreTypes.js";
+
+function greet(person: string): string {
+  return `Hello ${person}, welcome to Chai Code`;
+}
+const username: string = "chai aur typeScript";
+//console.log(greet(username));
+
+//======================== here we are using src/03_typesNarrowing.js file here ==============================
 
 //---------- Example 1: getChai -------------------
 // console.log(getChai("green"));
@@ -34,5 +36,14 @@ const cutting = new CuttingChai();
 
 // console.log(serve(Kulhad));
 // console.log(serve(cutting));
+
+//============================================================================================================
+
+//====================Type Assertion, Type Unknown and Type Never 04_moreTypes.ts ==========================
+
+//---------- Example 1: using class -------------------
+//console.log(numericLenght);
+//console.log(pageData);
+//console.log(strData);
 
 //============================================================================================================
